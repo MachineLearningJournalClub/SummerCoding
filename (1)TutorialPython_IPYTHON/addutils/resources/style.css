@@ -1,0 +1,149 @@
+<style>
+.text_cell_render @font-face {
+    font-family: "Computer Modern";
+    src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+
+div.cell {
+    width: 900px;
+    margin-left: 0% !important;
+    margin-right: 0%;
+}
+
+code {
+    font-size:10pt;
+}
+
+.text_cell_render  h1 {
+    font-family: Tahoma, sans-serif;
+    color: rgb( 10, 88, 126 );
+    font-size:28pt;
+}
+.text_cell_render h2 {
+    font-family: Tahoma, sans-serif;
+    color: rgb( 10, 88, 126 );
+    font-size:24pt;
+}
+.text_cell_render h3 {
+    font-family: Tahoma, sans-serif;
+    color: rgb( 10, 88, 126 );
+    font-size:20pt;
+}
+.text_cell_render h4 {
+    font-family: Tahoma, sans-serif;
+    color: rgb( 10, 88, 126 );
+    font-size:18pt;
+    margin-top:12px;
+    margin-bottom: 3px;
+}
+
+.text_cell_render h5 {
+    font-weight: 300;
+    font-size: 11pt;
+    color: rgb( 48, 48, 48 );
+    font-style: italic;
+    margin-bottom: .5em;
+    margin-top: 0.5em;
+    display: block;
+}
+
+.text_cell_render ul {
+    font-family: Tahoma, sans-serif;
+    color: rgb( 90, 90, 90 );
+    font-size:11pt;
+    line-height: 185%;
+}
+
+.text_cell_render yp {
+    font-family: Tahoma, sans-serif;
+    color: rgb( 90, 90, 90 );
+    font-size:11pt;
+}
+
+.text_cell_render strong {
+    font-family: Tahoma, sans-serif;
+    color: rgb( 30, 30, 30 );
+    font-size:11pt;
+}
+
+.text_cell_render a:link {
+    font-family: Tahoma, sans-serif;
+    color: rgb( 10, 88, 126 );
+    font-size:11pt;
+}
+
+.text_cell_render a:visited {
+    color:rgb( 10, 88, 126 );
+}
+
+.text_cell_render {
+    font-family: Helvetica, Courier, Computer Modern, "Helvetica Neue", Arial, Geneva, sans-serif;
+    color: rgb( 84, 84, 84 );
+    font-size:11pt;
+    line-height: 125%;
+    font-size: 100%;
+    width:800px;
+}
+
+.CodeMirror {
+    font-family: Courier, "Source Code Pro", source-code-pro,Consolas, monospace;
+}
+
+.warning {
+    color: rgb( 240, 20, 20 );
+}
+
+/* Pandas tables */
+/*
+.rendered_html td {
+    text-align: right;
+}
+*/
+
+table.dataframe td {
+    text-align: right;
+}
+
+.output .table-of-contents {
+    border: 1px #cecece solid;
+    background-color: #fafafa;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.output .table-of-contents ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.output .table-of-contents .title {
+    font-weight: bold;
+    font-height: 11pt;
+    padding-left: 20px; /* looks better if it's the same to the <ul> */
+}
+
+.output .table-of-contents .btn-update {
+    position: absolute;
+    float: right;
+    right: 11px;
+    top: 4px;
+    font-size: 9pt;
+}
+
+</style>
+<script>
+    MathJax.Hub.Config({
+                        TeX: {
+                           extensions: ["AMSmath.js"]
+                           },
+                displayAlign: 'center', // Change this to 'center' to center equations.
+                "HTML-CSS": {
+                    styles: {'.MathJax_Display': {"margin": 4}}
+                }
+        });
+</script>
